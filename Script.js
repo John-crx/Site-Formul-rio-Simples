@@ -27,5 +27,5 @@ form.addEventListener("submit", function (event) {
     location.reload();
 });
 
-// Remove o evento redundante no botão
+// Quando o alerta surge, a página só reinicia quando eu concluo a msg
 button.removeEventListener("click", () => {});
