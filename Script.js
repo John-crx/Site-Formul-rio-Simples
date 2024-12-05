@@ -1,30 +1,31 @@
-// Seleciona o botão pelo ID
+// Seleciona o formulário e o botão
+const form = document.getElementById("contactForm");
 const button = document.getElementById("alertButton");
-
-// Adiciona evento de clique no botão
-button.addEventListener("click", function () {
-    alert("Dados Enviados com Sucesso!"); // Alerta de sucesso
-    location.reload(); // Recarrega a página
-});
-
-// Seleciona o formulário pelo ID
-const form = document.getElementById('contactForm');
 
 // Adiciona evento de envio ao formulário
 form.addEventListener("submit", function (event) {
-    event.preventDefault(); // Evita o envio padrão do formulário
+    event.preventDefault(); // Evita o comportamento padrão do formulário
 
     // Obtém os valores dos campos
-    const name = document.getElementById("nome").value.trim();
-    const phone = document.getElementById("Telefone").value.trim();
+    const nome = document.getElementById("nome").value.trim();
+    const telefone = document.getElementById("Telefone").value.trim();
     const email = document.getElementById("email").value.trim();
 
-    // Valida se os campos obrigatórios estão preenchidos
-    if (!name || !email) {
-        alert("Por favor, preencha todos os campos obrigatórios.");
+    // Verifica se todos os campos foram preenchidos
+    if (!nome || !telefone || !email) {
+        alert("Por favor, preencha todos os campos."); // Exibe mensagem de erro
         return; // Interrompe a execução
     }
 
-    alert("Formulário enviado com sucesso!");
-    form.reset(); // Limpa os campos do formulário
+    // Exibe mensagem de sucesso
+    alert("Dados Enviados com Sucesso!");
+
+    // Limpa o formulário
+    form.reset();
+
+    // Atualiza a página (opcional)
+    location.reload();
 });
+
+// Remove o evento redundante no botão
+button.removeEventListener("click", () => {});
