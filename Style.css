@@ -1,0 +1,46 @@
+body {
+    /* Alinhamento centralizado da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Tela cheia */
+}
+
+.Informações {
+    /* Estilo da caixa do formulário */
+    text-align: center;
+    margin: 100px;
+    width: 80%;
+    max-width: 300px;
+    height: 405px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    color: white; /* Texto branco */
+    border-radius: 35px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    font-size: 20px;
+}
+
+form label {
+    display: inline-block; /* Posiciona os rótulos */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form button {
+    /* Campos e botão com estilos similares */
+    width: 90%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 20px; /* Bordas arredondadas */
+    border: 1px solid #000; /* Contorno */
+}
+
+form button {
+    background-color: rgba(253, 253, 253, 0.7); /* Botão claro */
+    cursor: pointer; /* Indicador de clique */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
