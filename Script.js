@@ -23,7 +23,7 @@ form.addEventListener("submit", function (event) {
     // Limpa o formulário
     form.reset();
 
-    // Atualiza a página (opcional)
+    // Atualiza a página
     location.reload();
 });
 
