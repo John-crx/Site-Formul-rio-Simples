@@ -5,7 +5,7 @@ body {
     align-items: center;
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0;
-    padding: 0;
+    padding: 0; (Preenchimento)
     height: 100vh; /* Tela cheia */
 }
 
@@ -20,7 +20,7 @@ body {
     color: white; /* Texto branco */
     border-radius: 35px; /* Bordas arredondadas */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    padding: 20px;
+    padding: 20px; (Preenchimento)
     font-size: 20px;
 }
 
@@ -41,7 +41,7 @@ form input, form button {
     /* Campos e botão com estilos similares */
     width: 90%;
     margin: 10px 0;
-    padding: 12px;
+    padding: 12px; (Preenchimento)
     border-radius: 20px; /* Bordas arredondadas */
     border: 1px solid #000; /* Contorno */
 }
