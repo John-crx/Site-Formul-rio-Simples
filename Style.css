@@ -29,7 +29,9 @@ form label { //* Rótulo do formulário */
  */
     margin-top: 10px; (Define o espaço externo acima de um elemento.)
 
-    font-weight: bold;espessura do texto, como normal, negrito ou valores numéricos.
+    font-weight: bold; (Define a espessura do texto, como normal, negrito ou valores numéricos.)
+
+
 
 
 }
