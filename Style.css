@@ -1,7 +1,7 @@
 body {
     /* Alinhamento centralizado da página */
     display: flex;
-    justify-content: center;
+    justify-content: center; (O justify-content: center; alinha os itens ao centro no eixo horizontal.)
     align-items: center;
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0;
@@ -30,9 +30,6 @@ form label { //* Rótulo do formulário */
     margin-top: 10px; (Define o espaço externo acima de um elemento.)
 
     font-weight: bold; (Define a espessura do texto, como normal, negrito ou valores numéricos.)
-
-
-
 
 }
 
