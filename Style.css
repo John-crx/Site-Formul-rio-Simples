@@ -24,10 +24,14 @@ body {
     font-size: 20px;
 }
 
-form label {
-    display: inline-block; /* Posiciona os rótulos */
-    margin-top: 10px;
-    font-weight: bold;
+form label { //* Rótulo do formulário */
+    display: inline-block; /* Faz o elemento ficar na mesma linha que outros, mas ainda permite ajustar largura e altura.
+ */
+    margin-top: 10px; (Define o espaço externo acima de um elemento.)
+
+    font-weight: bold;espessura do texto, como normal, negrito ou valores numéricos.
+
+
 }
 
 form button {
